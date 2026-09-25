@@ -1,3 +1,4 @@
 bin/
+target/
 *.class
 .vscode/.browse.c_cpp.db*

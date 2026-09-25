@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Maven: Run App",
+            "type": "shell",
+            "command": "mvn clean compile exec:java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Maven: Package JAR",
+            "type": "shell",
+            "command": "mvn clean package",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Direct Java Run (without Maven)",
+            "type": "shell",
+            "command": "run.bat",
+            "problemMatcher": []
+        }
+    ]
+}

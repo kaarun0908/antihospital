@@ -1,0 +1,4 @@
+admin|admin123|Administrator
+doctor|doc123|Dr. Sarah Smith
+nurse|nurse123|Nurse Joy
+nurse_1790348206077|pass123|Nurse Jackie

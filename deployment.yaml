@@ -1,0 +1,19 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: antihospital
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: antihospital
+  template:
+    metadata:
+      labels:
+        app: antihospital
+    spec:
+      containers:
+        - name: antihospital
+          image: kaarun0007/antihospital:latest
+          imagePullPolicy: Always
